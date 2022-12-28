@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: rockSalt;
+    src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/Nunito/Nunito-Italic-VariableFont_wght.ttf);
+}
+
+.rockSaltFont {
+    font-family: rockSalt;
+}
+
+.nunitoFont {
+    font-style: normal;
+    font-family: nunito;
+}
+
+body {
+    max-width: 1400px;
+}
+
+/* header */
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 1em;
+
+}
+
+/* header */
+
+
+/* header background */
+
+
+
+.headerBackGround {
+    background-color: #DF8480;
+    display: flex;
+    justify-content:right;
+    width: 100vw;
+
+    gap: 1em ;
+
+}
+
+.headerBackGround img {
+    width: 50%;
+}
+
+.headerBackGround h1 {
+    padding-top: 2em;
+    text-align: end;
+    font-size: 2em;
+    color: #fff;
+    width: 10ch;
+}
+
+/* header background */
+
+
+
+
+/* how it works */
+
+
+.howItWorks {
+
+}
+
+.howItWorks h1 {
+    padding: 1em;
+    font-size: 3em;
+    text-align: center;
+    color: #DF8480;
+}
+
+.howItWorks .number {
+    padding-bottom: 1em;
+    color: #DF8480;
+    font-size: 2.7em;
+    text-align: center;
+
+}
+
+
+.containerHowItWorks {
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.HowItWorksBox {
+    width: 25%;
+    padding: 1em;
+    border-radius: 0.4em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.HowItWorksBox p {
+    padding-bottom: 1em;
+}
+
+/* how it works */
+
+
+
+/* what's in the menu */
+
+.whatsInTheMenu h1 {
+    padding: 1em;
+    font-size: 3em;
+    color: #DF8480;
+    text-align: center;
+
+
+}
+
+
+.containerWhatsInTheMenu {
+    justify-content: center;
+    gap: 1em;
+    width: 100wv;
+    display: flex;
+
+}
+
+.containerWhatsInTheMenu img {
+    width: 25%;
+}
+
+.containerWhatsInTheMenu p {
+    display: flex;
+    border-radius: 0.5em;
+    padding: 0 1em;
+    align-items: center;
+    font-size: 0.7em;
+    color: white;
+    background-color: #DF8480;
+    width: 25%;
+}
+
+/* what's in the menu */
+
+
+
+
+/* footer */
+
+.footer {
+    width: 100vw;
+    margin-top: 1em;
+    background-color: #242424;
+    gap: 1em;
+    padding: 2em;
+}
+
+.footer p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+
+.email {
+    display: block;
+    text-align: center;
+    width: 380px;
+    background-color: #fff;
+    text-decoration: none;
+    color:#242424 ;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em auto;
+
+
+}
+
+.signUp {
+    display: block;
+    text-align: center;
+    width: 380px;
+    text-decoration: none;
+    color: white ;
+    background-color: #DF8480;
+    border-radius: 2em;
+    padding: 1em;
+    margin: auto;
+    margin: 1em auto;
+
+
+}
+
+.footerBottom {
+    padding: 0.5em 0.5em;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    background-color: #242424;
+}
+
+.footerBottom .copyright {
+    padding-right: 1em;
+    color: white;
+}
+
+.icons {
+    display: flex;
+}
+
+/* what's in the menu */
